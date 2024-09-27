@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.barra-de-navegacao {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #89c4f4, #357ABD);
+  padding: 10px 20px;
+}
+
+.barra-esquerda {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.marca {
+  font-size: 1.5em;
+  font-family: 'Dancing Script', cursive;
+  color: white;
+}
+
+.barra-centro {
+  display: flex;
+  gap: 20px;
+}
+
+.item-navegacao {
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+.barra-direita {
+  display: flex;
+  align-items: center;
+}
+
+.icone-usuario {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+  padding: 5px;
+}
